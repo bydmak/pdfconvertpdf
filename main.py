@@ -7,7 +7,7 @@ from reportlab.lib.units import cm
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.lib.pagesizes import A4
 
-img = Image.open('page0-5.png')
+img = Image.open('1.png')
 
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
@@ -32,7 +32,6 @@ with open('Text.txt', 'r+') as sumtext:
 
 if os.path.isfile('Text.txt'): 
     os.remove('Text.txt') 
-    print("success") 
 else: print("File doesn't exists!")
 
 
