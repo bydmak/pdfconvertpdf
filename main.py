@@ -7,7 +7,7 @@ from reportlab.lib.units import cm
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.lib.pagesizes import A4
 
-img = Image.open('1.png')
+img = Image.open('0.png')
 
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
